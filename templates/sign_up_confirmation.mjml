@@ -1,0 +1,111 @@
+<mjml>
+    <mj-head>
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-section padding="0" />
+            <mj-column padding="0" />
+            <mj-image padding="0" />
+            <mj-text padding="0" front-size="14px" color="#4F4F4F"/>
+            <mj-wrapper padding="0" />
+            <mj-divider border-color="#E7EBED" padding="0" border-width="1px" />
+            <mj-class name="orange" color="#FFA13A" />
+            <mj-class name="white" color="#FFFFFF" />
+            <mj-class name="small" front-size="12px" />
+            <mj-class name="medium" front-size="14px" />
+           	<mj-class name="big" front-size="16px" />
+			<mj-class name="big2" font-size="18px" />
+			<mj-class name="bold" font-weight="bold" />
+        </mj-attributes>
+        <mj-style>
+	      	.thumbs-up {
+	      		display: none !important;
+	      	}
+	      	@media only screen and (min-width: 600px) {
+	      		.thumbs-up {
+	      			display: inline-block !important;
+	      		}
+                .footer-text > div {
+                    text-align: right !important;
+                }
+	      	}
+    	</mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-section padding-top="24px" padding-bottom="19px">
+            <mj-column>
+                <mj-image width="198px" src="assets/logo.png"></mj-image>
+            </mj-column>
+        </mj-section>
+        <mj-divider border-width="3px"></mj-divider>
+        <mj-section>
+            <mj-column width="106px" padding-right="34px" css-class="thumbs-up">
+                <mj-image width="60px" src="assets/thumbs_up.png"></mj-image>
+            </mj-column>
+            <mj-column width="490px" padding-left="12px" padding-right="12px">
+                <mj-text padding-top="59px" padding-bottom="30px">
+                Kia ora [preferred_name],<br/><br/>
+
+                Thanks for signing up to Z Electric! We’re looking forward to helping you power your property at: [54 Farm Road, Tokanui].<br/><br/>
+
+                We’re reviewing your application so that we can set you up with a new power account, and we’ll be in touch along the way to keep you posted.<br/><br/>
+
+                If you haven’t already, download Z App to claim your free tank of fuel when your switch is successful.</mj-text>
+                <mj-divider></mj-divider>
+                <mj-text mj-class="bold big" padding-top="32px">What’s next?<br/><br/></mj-text>
+                <mj-text padding-bottom="30px">We're now reviewing your application. If everything looks good, we'll start setting up your account. We'll send you an email to update you on how things are going, so keep an eye on your inbox.</mj-text>
+                <mj-divider></mj-divider>
+                <mj-text mj-class="bold big" padding-top="32px">Need help?<br/><br/></mj-text>
+                <mj-text padding-bottom="30px">If we can help with anything while you get set up with Z Electric, please call one of our friendly team on 0800 XXXXX 8.00am - 8.00pm Monday to Wednesday and 08.00am - 04:30pm on Thursday to Friday & 08:30am - 05:00pm Saturday & Sunday. Or you can email us at zelectric@z.co.nz.<br/><br/>
+
+                Ngā mihi nui,<br/>
+                 The team at Z Electric</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding-bottom="58px">
+            <mj-column width="157px">
+                <mj-image width="157px" src="assets/app.png"></mj-image>
+            </mj-column>
+            <mj-column  width="340px">
+                <mj-text mj-class="orange big2 bold" padding-top="32px" padding-left="12px" padding-right="12px">Rewards your way with Sharetank<br/><br/></mj-text>
+                <mj-text padding-bottom="24px" padding-left="12px" padding-right="12px">If you haven’t already, download Z App to claim your free tank of fuel when your switch is successful. If you need help, click here.</mj-text>
+                <mj-section text-align="left">
+                    <mj-column width="160px" padding-left="12px" padding-right="20px">
+                        <mj-image width="128px" src="assets/app_store.png" padding-bottom="20px"></mj-image>
+                    </mj-column>
+                    <mj-column width="144px">
+                        <mj-image width="144px" src="assets/google_play.png"></mj-image>
+                    </mj-column>
+                </mj-section>
+            </mj-column>
+        </mj-section>
+        <mj-wrapper background-url="assets/footer_background.png" background-size="cover" background-repeat="no-repeat" full-width="full-width">
+            <mj-section>
+                <mj-column width="210px" padding-top="30px" padding-left="12px" padding-right="12px">
+                    <mj-image src="assets/logo.png"></mj-image>
+                </mj-column>
+                <mj-column width="386px" padding-top="40px" padding-left="12px" padding-right="12px">
+                    <mj-text padding-bottom="32px" mj-class="orange big2 bold" align="center" css-class="footer-text">A new kind of electricity.</mj-text>
+
+                    <mj-text mj-class="white big" align="center" padding-bottom="8px" css-class="footer-text">
+                    If we can help with anything please</mj-text>
+                    <mj-text mj-class="white big" align="center" padding-bottom="8px" css-class="footer-text">
+                     contact one of the team online</mj-text>
+                    <mj-text mj-class="white big" align="center" padding-bottom="32px" css-class="footer-text">
+                     or via email at hello@zelectric.co.nz</mj-text>
+                </mj-column>
+                <mj-divider border-color="rgba(255, 255, 255, 0.15)"></mj-divider>
+            </mj-section>
+            <mj-section padding-top="24px" padding-bottom="12px">
+                <mj-column width="240px">
+                    <mj-text mj-class="white small" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center">Copyright © Z Energy Limited 2020</mj-text>
+                </mj-column width="120px">
+                <mj-column>
+                    <mj-text mj-class="white small" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center">Powered by Flick Electric</mj-text>
+                </mj-column>
+                <mj-column width="160px">
+                    <mj-text mj-class="white small" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center">z.co.nz/electric</mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+    </mj-body>
+</mjml>

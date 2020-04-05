@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx mjml -w ./templates/*.mjml -o ./templates/dist/"
+    "dev": "yarn build && open ./templates/dist/sign_up_confirmation.html && yarn watch",
+    "build": "npx mjml ./templates/*.mjml -o ./templates/dist/",
+    "watch": "npx mjml -w ./templates/*.mjml -o ./templates/dist/"
   },
   "repository": {
     "type": "git",

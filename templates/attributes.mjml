@@ -1,0 +1,13 @@
+<mj-section padding="0" />
+<mj-column padding="0" />
+<mj-image padding="0" />
+<mj-text padding="0" front-size="14px" color="#4F4F4F"/>
+<mj-wrapper padding="0" />
+<mj-divider border-color="#E7EBED" padding="0" border-width="1px" />
+<mj-class name="orange" color="#FFA13A" />
+<mj-class name="white" color="#FFFFFF" />
+<mj-class name="small" front-size="12px" />
+<mj-class name="medium" front-size="14px" />
+<mj-class name="big" front-size="16px" />
+<mj-class name="big2" font-size="18px" />
+<mj-class name="bold" font-weight="bold" />

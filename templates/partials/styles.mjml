@@ -1,0 +1,31 @@
+<mj-style>
+  	.side-image {
+  		display: none !important;
+  	}
+
+    a {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        color: inherit !important;
+        text-decoration: none;
+        font-weight: bold;
+        text-decoration: underline #00BDCE;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+  	@media only screen and (min-width: 600px) {
+  		.side-image {
+  			display: inline-block !important;
+  		}
+      .footer-text > div {
+          text-align: right !important;
+      }
+  	}
+</mj-style>

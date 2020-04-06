@@ -9,9 +9,9 @@
             <mj-text mj-class="white big" align="center" padding-bottom="8px" css-class="footer-text">
             If we can help with anything please</mj-text>
             <mj-text mj-class="white big" align="center" padding-bottom="8px" css-class="footer-text">
-             contact one of the team online</mj-text>
+             contact one of the team <a href="http://example.com">online</a></mj-text>
             <mj-text mj-class="white big" align="center" padding-bottom="32px" css-class="footer-text">
-             or via email at hello@zelectric.co.nz</mj-text>
+             or via email at <a href="http://example.com">hello@zelectric.co.nz</a></mj-text>
         </mj-column>
         <mj-divider border-color="rgba(255, 255, 255, 0.15)"></mj-divider>
     </mj-section>
@@ -23,7 +23,7 @@
             <mj-text mj-class="white small" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center">Powered by Flick Electric</mj-text>
         </mj-column>
         <mj-column width="160px">
-            <mj-text mj-class="white small" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center">z.co.nz/electric</mj-text>
+            <mj-text mj-class="white small" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center"><a href="http://example.com">z.co.nz/electric</a></mj-text>
         </mj-column>
     </mj-section>
 </mj-wrapper>

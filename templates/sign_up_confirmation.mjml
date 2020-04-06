@@ -2,65 +2,69 @@
     <mj-head>
         <mj-breakpoint width="600px" />
         <mj-attributes>
-            <mj-include path="./attributes.mjml" />
+            <mj-include path="./partials/attributes.mjml" />
         </mj-attributes>
-        <mj-style>
-	      	.thumbs-up {
-	      		display: none !important;
-	      	}
-	      	@media only screen and (min-width: 600px) {
-	      		.thumbs-up {
-	      			display: inline-block !important;
-	      		}
-                .footer-text > div {
-                    text-align: right !important;
-                }
-	      	}
-    	</mj-style>
+        <mj-include path="./partials/styles.mjml" />
     </mj-head>
     <mj-body>
-        <mj-include path="./header.mjml" />
+        <mj-include path="./partials/header.mjml" />
         <mj-section>
-            <mj-column width="106px" padding-right="34px" css-class="thumbs-up">
+            <mj-column width="106px" padding-right="34px" css-class="side-image">
                 <mj-image width="60px" src="assets/thumbs_up.png"></mj-image>
             </mj-column>
             <mj-column width="490px" padding-left="12px" padding-right="12px">
                 <mj-text padding-top="59px" padding-bottom="30px">
-                Kia ora [preferred_name],<br/><br/>
+                Kia ora {{ preferred_name }},<br/><br/>
 
-                Thanks for signing up to Z Electric! We’re looking forward to helping you power your property at: [54 Farm Road, Tokanui].<br/><br/>
+                Thanks for signing up to Z Electric! We’re looking forward to helping you power your property at: <span class="bold">{{ property_address }}</span>.<br/><br/>
 
                 We’re reviewing your application so that we can set you up with a new power account, and we’ll be in touch along the way to keep you posted.<br/><br/>
 
-                If you haven’t already, download Z App to claim your free tank of fuel when your switch is successful.</mj-text>
+                If you haven’t already, <a href="http://www.example.com">download Z App</a> to claim your free tank of fuel when your switch is successful.</mj-text>
+
                 <mj-divider></mj-divider>
+
+                <mj-text padding-top="32px" padding-bottom="30px">
+
+                {% if payment_type == "paper_direct_debit" %}
+
+                As soon as we receive your direct debit form we'll review your application (<a href="https://myflick.flickelectric.co.nz/downloads/FlickDirectDebit.pdf">print a direct debit form here</a>).<br /><br />
+
+                If everything looks good, we'll start setting up your account. We'll send you an email to update you on how things are going. <a class="h-u1" style="color:#000;" href="https://www.flickelectric.co.nz/direct-debit-terms">Check out our Ts and Cs</a>.
+
+                {% elsif payment_type == "paperless_direct_debit" %}
+
+                  We're now reviewing your application. If everything looks good, we'll start setting up your account. We'll send you an email to update you on how things are going.<br /><br />
+
+                Here is a summary of the direct debit information you've given us. We will only use this if you become a Flickster. <a class="h-u1" style="color:#000;" href="https://www.flickelectric.co.nz/direct-debit-terms">Check out our Ts and Cs</a>.<br /><br />
+
+                Your direct debit instructions were received on {{ direct_debit_created_at }}, and have been established for your {{ direct_debit_bank }} account: {{ direct_debit_account_number }} and the name on the account is {{ direct_debit_account_name }}.<br /><br />
+
+                The name which will show on your bank records is Flick Energy Limited, and our authority code is 0331113.
+
+                {% elsif payment_type == "credit_card" %}
+
+                We're now reviewing your application. If everything looks good, we'll start setting up your account. We'll send you an email to update you on how things are going.
+
+                {% endif %}
+
+                </mj-text>
+
+                <mj-divider></mj-divider>
+
                 <mj-text mj-class="bold big" padding-top="32px">What’s next?<br/><br/></mj-text>
                 <mj-text padding-bottom="30px">We're now reviewing your application. If everything looks good, we'll start setting up your account. We'll send you an email to update you on how things are going, so keep an eye on your inbox.</mj-text>
+
                 <mj-divider></mj-divider>
+
                 <mj-text mj-class="bold big" padding-top="32px">Need help?<br/><br/></mj-text>
-                <mj-text padding-bottom="30px">If we can help with anything while you get set up with Z Electric, please call one of our friendly team on 0800 XXXXX 8.00am - 8.00pm Monday to Wednesday and 08.00am - 04:30pm on Thursday to Friday & 08:30am - 05:00pm Saturday & Sunday. Or you can email us at zelectric@z.co.nz.<br/><br/>
+                <mj-text padding-bottom="30px">If we can help with anything while you get set up with Z Electric, please call one of our friendly team on {{ contact_phone_numbers }} {{ contact_hours }}. Or you can email us at {{ contact_email }}.<br/><br/>
 
                 Ngā mihi nui,<br/>
-                 The team at Z Electric</mj-text>
+                {{global_default_signoff}}</mj-text>
             </mj-column>
         </mj-section>
-        <mj-section padding-bottom="58px">
-            <mj-column width="157px">
-                <mj-image width="157px" src="assets/app.png"></mj-image>
-            </mj-column>
-            <mj-column  width="340px">
-                <mj-text mj-class="orange big2 bold" padding-top="32px" padding-left="12px" padding-right="12px">Rewards your way with Sharetank<br/><br/></mj-text>
-                <mj-text padding-bottom="24px" padding-left="12px" padding-right="12px">If you haven’t already, download Z App to claim your free tank of fuel when your switch is successful. If you need help, click here.</mj-text>
-                <mj-section text-align="left">
-                    <mj-column width="168px" padding-left="20px" padding-right="20px">
-                        <mj-image width="128px" src="assets/app_store.png" padding-bottom="20px"></mj-image>
-                    </mj-column>
-                    <mj-column width="144px" padding-left="0">
-                        <mj-image width="144px" src="assets/google_play.png"></mj-image>
-                    </mj-column>
-                </mj-section>
-            </mj-column>
-        </mj-section>
-        <mj-include path="./footer.mjml" />
+        <mj-include path="./partials/install_app.mjml" />
+        <mj-include path="./partials/footer.mjml" />
     </mj-body>
 </mjml>

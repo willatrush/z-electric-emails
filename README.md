@@ -4,4 +4,4 @@
 
 run ```yarn dev```
 
-Templates are rendered under `./templates/dist`
+Templates are rendered under `./dist`

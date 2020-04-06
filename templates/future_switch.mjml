@@ -1,0 +1,28 @@
+<mjml>
+    <mj-head>
+        <mj-breakpoint width="600px" />
+        <mj-attributes>
+            <mj-include path="./partials/attributes.mjml" />
+        </mj-attributes>
+        <mj-include path="./partials/styles.mjml" />
+    </mj-head>
+    <mj-body>
+        <mj-include path="./partials/header.mjml" />
+
+        <mj-section>
+            <mj-column width="106px" padding-right="34px" css-class="side-image">
+                <mj-image width="60px" src="assets/thumbs_up.png"></mj-image>
+            </mj-column>
+            <mj-column width="490px" padding-left="12px" padding-right="12px">
+                <mj-text padding-top="59px" padding-bottom="30px">
+                Kia ora [preferred_name],<br/><br/>
+                Good news - your switch to Z Electric has been booked for [FUTURE SWITCH DATE].<br/><br/>
+                If the power is already connected at [ADDRESS], it’ll stay on between now and your switch date.<br/><br/>
+                We’ll be in touch again when the switch is complete!</mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-include path="./partials/install_app.mjml" />
+        <mj-include path="./partials/footer.mjml" />
+    </mj-body>
+</mjml>

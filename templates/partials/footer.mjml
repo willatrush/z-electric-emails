@@ -1,7 +1,7 @@
-<mj-wrapper background-url="assets/footer_background.png" background-size="cover" background-repeat="no-repeat" full-width="full-width">
+<mj-wrapper background-url="../assets/footer_background.png" background-size="cover" background-repeat="no-repeat" full-width="full-width">
     <mj-section>
         <mj-column width="210px" padding-top="30px" padding-left="12px" padding-right="12px">
-            <mj-image src="assets/logo.png"></mj-image>
+            <mj-image src="../assets/logo.png"></mj-image>
         </mj-column>
         <mj-column width="386px" padding-top="40px" padding-left="12px" padding-right="12px">
             <mj-text padding-bottom="32px" mj-class="orange big2 bold" align="center" css-class="footer-text">A new kind of electricity.</mj-text>

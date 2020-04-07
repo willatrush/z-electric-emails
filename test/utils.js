@@ -7,7 +7,8 @@ const libPath = require('path');
 async function prepareTestResults() {
     await fs.ensureDir('./test_results');
     await fs.emptyDir('./test_results');
-    await fs.copy('./dist/assets', './test_results/assets');
+    await fs.ensureDir('./screenshots');
+    await fs.emptyDir('./screenshots');
 }
 
 async function renderTemplate(name, templateName, data) {

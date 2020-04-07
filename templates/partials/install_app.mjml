@@ -1,16 +1,16 @@
 <mj-section padding-bottom="58px">
     <mj-column width="157px">
-        <mj-image width="157px" src="assets/app.png"></mj-image>
+        <mj-image width="157px" src="../assets/app.png"></mj-image>
     </mj-column>
     <mj-column  width="340px">
         <mj-text mj-class="orange big2 bold" padding-top="32px" padding-left="12px" padding-right="12px">Rewards your way with Sharetank<br/><br/></mj-text>
         <mj-text padding-bottom="24px" padding-left="12px" padding-right="12px">If you haven’t already, <a href="http://example.com">download Z App</a> to claim your free tank of fuel when your switch is successful. If you need help, click <a href="http://example.com">here</a>.</mj-text>
         <mj-section text-align="left">
             <mj-column width="168px" padding-left="20px" padding-right="20px">
-                <mj-image width="128px" href="http://www.example.com" src="assets/app_store.png" padding-bottom="20px"></mj-image>
+                <mj-image width="128px" href="http://www.example.com" src="../assets/app_store.png" padding-bottom="20px"></mj-image>
             </mj-column>
             <mj-column width="144px" padding-left="0">
-                <mj-image width="144px" href="http://www.example.com" src="assets/google_play.png"></mj-image>
+                <mj-image width="144px" href="http://www.example.com" src="../assets/google_play.png"></mj-image>
             </mj-column>
         </mj-section>
     </mj-column>

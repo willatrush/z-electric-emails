@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test -t 20000",
-    "dev": "yarn build && open ./dist/sign_up_confirmation.html && yarn watch",
+    "dev": "yarn clear && yarn build && open ./dist/sign_up_confirmation.html && yarn watch",
     "build": "npx mjml ./templates/*.mjml -o ./dist/",
-    "watch": "npx mjml -w ./templates/*.mjml -o ./dist/"
+    "watch": "npx mjml -w ./templates/*.mjml -o ./dist/",
+    "clear": "rm -rf dist && mkdir dist"
   },
   "repository": {
     "type": "git",

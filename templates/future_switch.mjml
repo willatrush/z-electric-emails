@@ -11,7 +11,7 @@
 
         <mj-section>
             <mj-column width="106px" padding-right="34px" css-class="side-image">
-                <mj-image width="60px" src="assets/thumbs_up.png"></mj-image>
+                <mj-image width="60px" src="../assets/thumbs_up.png"></mj-image>
             </mj-column>
             <mj-column width="490px" padding-left="12px" padding-right="12px">
                 <mj-text padding-top="59px" padding-bottom="30px">

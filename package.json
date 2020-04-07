@@ -4,11 +4,11 @@
   "description": "This README would normally document whatever steps are necessary to get your application up and running.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test -t 20000",
-    "dev": "yarn clear && yarn build && open ./dist/sign_up_confirmation.html && yarn watch",
-    "build": "npx mjml ./templates/*.mjml -o ./dist/",
-    "watch": "npx mjml -w ./templates/*.mjml -o ./dist/",
-    "clear": "rm -rf dist && mkdir dist"
+    "test": "jest",
+    "dev": "yarn clear && yarn build && open ./liquid/sign_up_confirmation.html && yarn watch",
+    "build": "yarn clear && npx mjml ./mjml/*.mjml -o ./liquid/",
+    "watch": "yarn clear && npx mjml -w ./mjml/*.mjml -o ./liquid/",
+    "clear": "rm -rf liquid && mkdir liquid"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   "homepage": "https://bitbucket.org/rushdigital/z-electric-emails#readme",
   "dependencies": {
     "fs-extra": "^9.0.0",
+    "jest": "^25.2.7",
+    "jest-image-snapshot": "^3.0.1",
     "liquid": "^4.0.1",
     "mjml": "^4.6.2",
     "puppeteer": "^2.1.1"

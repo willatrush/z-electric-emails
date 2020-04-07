@@ -1,17 +1,21 @@
 ### Electric emails
+#### Install
+
+run ```yarn```
 
 #### Dev
 
 run ```yarn dev```
 
 This does a few things
-- Starts a process to run `mjml`
-- Opens the template as html in the browser
-
-Liquid templates are rendered under `./dist`
+- Starts a process to watch and compile `./mjml` templates to `./liquid` templates
+- Opens sign_up_confirmation liquid template as html in the browser
+	- TODO live reload?
 
 #### Test
 
-```yarn test```
+run ```jest```
 
-Renders the emails, and outputs screenshots in `./screenshots`
+Renders the emails, and performs a visual regression
+
+Screenshots and differences are rendered under `test/__image_snapshots__`

@@ -19,3 +19,8 @@ run ```jest```
 Renders the emails, and performs a visual regression
 
 Screenshots and differences are rendered under `test/__image_snapshots__`
+
+#### Preview
+
+<img src="./test/__image_snapshots__/templates-test-js-templates-renders-sign-up-confirmation-1-snap.png" width="400">
+<img src="./test/__image_snapshots__/templates-test-js-templates-renders-sign-up-confirmation-2-snap.png" width="160">

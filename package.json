@@ -4,7 +4,7 @@
   "description": "This README would normally document whatever steps are necessary to get your application up and running.",
   "main": "index.js",
   "scripts": {
-    "test": "node test",
+    "test": "mocha test -t 20000",
     "dev": "yarn build && open ./dist/sign_up_confirmation.html && yarn watch",
     "build": "npx mjml ./templates/*.mjml -o ./dist/",
     "watch": "npx mjml -w ./templates/*.mjml -o ./dist/"
@@ -17,11 +17,9 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/rushdigital/z-electric-emails#readme",
   "dependencies": {
+    "fs-extra": "^9.0.0",
     "liquid": "^4.0.1",
     "mjml": "^4.6.2",
-    "ncp": "^2.0.0"
-  },
-  "devDependencies": {
-    "grunt": "^1.1.0"
+    "puppeteer": "^2.1.1"
   }
 }

@@ -1,21 +1,40 @@
+<mj-section css-class="app-image-section-mobile">
+    <mj-column>
+        <mj-image width="215px" src="../assets/app.png" />
+    </mj-column>
+</mj-section>
 <mj-section 
     css-class="install-app-wrapper">
     <mj-column width="340px" css-class="install-app">
         <mj-text 
+            css-class="left-on-desktop"
             mj-class="orange big bold"
+            padding-top="22px"
             padding-left="12px"
             padding-right="12px"
-            padding-bottom="12px">
+            padding-bottom="12px"
+            align="center">
             Rewards your way with Sharetank
         </mj-text>
 
-        <mj-text padding-bottom="8px" padding-left="12px" padding-right="12px">
+        <mj-text
+            css-class="left-on-desktop mj-text"
+            padding-bottom="12px"
+            padding-left="12px"
+            padding-right="12px"
+            align="center">
 
             Redeem, or reward the ones you love! Start by downloading <a>Sharetank on Z App</a>.
 
         </mj-text>
 
-        <mj-text mj-class="tiny" padding-bottom="14px" padding-left="12px" padding-right="12px">
+        <mj-text
+            css-class="left-on-desktop"
+            mj-class="tiny" 
+            padding-bottom="18px"
+            padding-left="12px"
+            padding-right="12px"
+            align="center">
 
             Want to learn more? Visit our <a>Sharetank FAQs</a>.
 
@@ -28,14 +47,14 @@
                     width="128px"
                     href="http://www.example.com"
                     src="../assets/app_store.png"
-                    padding-bottom="20px" />
+                    padding-bottom="24px" />
             </mj-column>
             <mj-column width="144px">
                 <mj-image 
                     width="144px"
                     href="http://www.example.com"
                     src="../assets/google_play.png"
-                    padding-bottom="20px">
+                    padding-bottom="24px">
                 </mj-image>
             </mj-column>
         </mj-section>

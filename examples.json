@@ -14,4 +14,16 @@
         "global_default_signoff": "The team at Flick HQ",
         "global_default_signoff_plain_text": "The team at Flick HQ"
     }
+},
+{
+    "name": "future_switch",
+    "template": "future_switch",
+    "data":
+    {
+        "preferred_name": "Marama",
+        "requested_switch_date": "2019-10-19",
+        "address": "8 Kent Terrace, Wellington 6011",
+        "global_default_signoff": "The team at Flick HQ",
+        "global_default_signoff_plain_text": "The team at Flick HQ"
+    }
 }]

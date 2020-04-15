@@ -53,7 +53,7 @@
 
       .install-app {
         padding-left: 150px;
-        padding-top: 60px;
+        padding-top: 42px;
       }
 
       .install-app-wrapper {
@@ -79,6 +79,14 @@
 
       .body-section {
         padding-bottom: 84px;
+      }
+
+      .left-on-desktop > div {
+        text-align: left !important;
+      }
+
+      .app-image-section-mobile {
+        display: none;
       }
   	}
 </mj-style>

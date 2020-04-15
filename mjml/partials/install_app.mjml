@@ -3,7 +3,6 @@
     <mj-column width="340px" css-class="install-app">
         <mj-text 
             mj-class="orange big bold"
-            font-size="16px"
             padding-left="12px"
             padding-right="12px"
             padding-bottom="12px">

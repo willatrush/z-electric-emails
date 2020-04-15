@@ -1,13 +1,18 @@
 <mj-section padding="0" />
 <mj-column padding="0" />
 <mj-image padding="0" />
-<mj-text padding="0" front-size="14px" color="#4F4F4F"/>
+<mj-text css-class="mj-text" padding="0" front-size="14px" color="#4F4F4F" font-family="Arial" />
 <mj-wrapper padding="0" />
-<mj-divider border-color="#E7EBED" padding="0" border-width="1px" />
-<mj-class name="orange" color="#FFA13A" />
+<mj-divider border-color="#E7EBED" padding="0" border-width="1px" padding-top="4px" padding-bottom="24px" />
+<mj-class name="orange" color="#F26522" />
 <mj-class name="white" color="#FFFFFF" />
+<mj-class name="tiny" font-size="10px" />
 <mj-class name="small" front-size="12px" />
+<mj-class name="medium-small" font-size="13px" />
 <mj-class name="medium" front-size="14px" />
 <mj-class name="big" front-size="16px" />
-<mj-class name="big2" font-size="18px" />
+<mj-class name="big2" font-size="20px" />
 <mj-class name="bold" font-weight="bold" />
+<mj-class name="title"  padding-bottom="16px" font-size="16px" />
+<mj-class name="paragraph" padding-bottom="16px" />
+<mj-class name="first-paragrah" padding-top="58px" padding-bottom="52px" />

@@ -1,29 +1,43 @@
 <mj-wrapper background-url="../assets/footer_background.png" background-size="cover" background-repeat="no-repeat" full-width="full-width">
     <mj-section>
-        <mj-column width="210px" padding-top="30px" padding-left="12px" padding-right="12px">
-            <mj-image src="../assets/logo.png"></mj-image>
+        <mj-column css-class="footer-column-1" width="198px" padding-top="24px" padding-left="12px" padding-right="12px">
+            <mj-image src="../assets/logo.png" padding-bottom="22px" />
+            <mj-text css-class="footer-office-hours" mj-class="white medium-small" align="center" padding-bottom="8px">
+                Our office hours are:
+            </mj-text>
+            <mj-text css-class="footer-office-hours" mj-class="white medium-small" align="center" padding-bottom="8px">
+                8.00am–8.00pm Mon to Wed
+            </mj-text>
+            <mj-text css-class="footer-office-hours" mj-class="white medium-small" align="center" padding-bottom="8px">
+                8.00am–4.30pm Thurs to Fri
+            </mj-text>
+            <mj-text css-class="footer-office-hours last-footer-office-hours" mj-class="white medium-small" align="center" padding-bottom="8px">
+                8.30am–5.00pm Sat to Sun
+            </mj-text>
         </mj-column>
-        <mj-column width="386px" padding-top="40px" padding-left="12px" padding-right="12px">
-            <mj-text padding-bottom="32px" mj-class="orange big2 bold" align="center" css-class="footer-text">A new kind of electricity.</mj-text>
+        <mj-column css-class="footer-column-2" width="386px" padding-top="32px" padding-left="12px" padding-right="12px">
+            <mj-text padding-bottom="32px" mj-class="white big2 bold" align="center" css-class="footer-text">
+                A new kind of electricity
+            </mj-text>
 
-            <mj-text mj-class="white big" align="center" padding-bottom="8px" css-class="footer-text">
-            If we can help with anything please</mj-text>
-            <mj-text mj-class="white big" align="center" padding-bottom="8px" css-class="footer-text">
-             contact one of the team <a href="http://example.com">online</a></mj-text>
-            <mj-text mj-class="white big" align="center" padding-bottom="32px" css-class="footer-text">
-             or via email at <a href="http://example.com">hello@zelectric.co.nz</a></mj-text>
+            <mj-text mj-class="white medium-small" align="center" padding-bottom="8px" css-class="footer-text">
+                Visit our <a class="nice-underline bold">Help Centre</a> or give us a call on
+            </mj-text>
+            <mj-text mj-class="white medium-small" align="center" padding-bottom="24px" css-class="footer-text">
+                0800 935 328 (0800 Z ELECTRIC)
+            </mj-text>
         </mj-column>
         <mj-divider border-color="rgba(255, 255, 255, 0.15)"></mj-divider>
     </mj-section>
     <mj-section padding-top="24px" padding-bottom="12px">
-        <mj-column width="240px">
-            <mj-text mj-class="white small" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center">Copyright © Z Energy Limited 2020</mj-text>
-        </mj-column width="120px">
         <mj-column>
-            <mj-text mj-class="white small" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center">Powered by Flick Electric</mj-text>
+            <mj-text css-class="footer-copyright" mj-class="white tiny" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center">Copyright © Z Energy Limited 2020</mj-text>
         </mj-column>
-        <mj-column width="160px">
-            <mj-text mj-class="white small" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center"><a href="http://example.com">z.co.nz/electric</a></mj-text>
+        <mj-column>
+            <mj-text css-class="footer-powered-by" mj-class="white tiny" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center">Powered by Flick Electric</mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text css-class="footer-website-link" mj-class="white small" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center"><a class="nice-underline" href="http://example.com">z.co.nz/electric</a></mj-text>
         </mj-column>
     </mj-section>
 </mj-wrapper>

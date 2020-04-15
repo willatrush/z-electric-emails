@@ -12,12 +12,15 @@
         vertical-align: baseline;
         color: inherit !important;
         text-decoration: none;
-        font-weight: bold;
-        text-decoration: underline #00BDCE;
+        text-decoration: underline;
     }
 
-    .bold {
-      font-weight: bold;
+    .mj-text > div {
+        line-height: 20px !important;
+    }
+
+    .nice-underline {
+        text-decoration: underline #00BDCE;
     }
 
   	@media only screen and (min-width: 600px) {
@@ -25,7 +28,53 @@
   			display: inline-block !important;
   		}
       .footer-text > div {
-          text-align: right !important;
+        text-align: right !important;
+      }
+
+      .footer-copyright > div {
+        text-align: left !important;
+      }
+
+      .footer-powered-by > div {
+        text-align: left !important;
+      }
+
+      .footer-website-link > div {
+        text-align: right !important;
+      }
+
+      .footer-office-hours > div {
+        text-align: left !important;
+      }
+
+      .app-image {
+        display: none;
+      }
+
+      .install-app {
+        padding-left: 140px;
+        padding-top: 60px;
+      }
+
+      .install-app-wrapper {
+        background: url(../assets/install_app_desktop_background.png) top center / cover no-repeat;
+        width:100%;
+      }
+
+      .last-footer-office-hours {
+        padding-bottom: 36px !important;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+
+      .footer-column-1 {
+        padding-top: 24px !important;
+      }
+
+      .footer-column-2 {
+        padding-top: 24px !important;
       }
   	}
 </mj-style>

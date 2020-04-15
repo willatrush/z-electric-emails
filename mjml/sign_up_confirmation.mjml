@@ -13,9 +13,13 @@
                 <mj-image width="60px" src="../assets/thumbs_up.png"></mj-image>
             </mj-column>
             <mj-column mj-class="body-main-container">
-                <mj-text mj-class="paragraph first-paragrah">
+                <mj-text mj-class="paragraph first-paragrah-top">
                     
-                    Kia ora {{ preferred_name }},<br/><br/>
+                    Kia ora {{ preferred_name }},
+
+                </mj-text>
+
+                <mj-text mj-class="paragraph first-paragrah-bottom">
 
                     Thanks for completing the steps to join Z Electric! We’re looking forward to connecting with you at <b>{{ property_address }}</b>.
                     

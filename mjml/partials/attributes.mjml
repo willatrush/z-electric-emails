@@ -18,7 +18,7 @@
 <mj-class name="paragraph" padding-bottom="16px" />
 <mj-class name="first-paragrah-top" padding-top="58px" />
 <mj-class name="first-paragrah-bottom" padding-bottom="52px" />
-<mj-class name="body-side-container" width="106px" padding-right="34px" css-class="body-side-container" />
+<mj-class name="body-side-container" width="80px" padding-right="8px" css-class="body-side-container" />
 <mj-class name="body-main-container" width="490px" padding-left="12px" padding-right="12px" />
 <mj-class name="indent-1" padding-left="24px" />
 <mj-class name="bill-title" padding-bottom="6px" />

@@ -24,7 +24,7 @@
             </mj-text>
 
             <mj-text mj-class="white medium-small" align="center" padding-bottom="8px" css-class="footer-text">
-                Visit our <a class="nice-underline bold">Help Centre</a> or give us a call on
+                Visit our <a class="bold">Help Centre</a> or give us a call on
             </mj-text>
             <mj-text mj-class="white medium-small" align="center" padding-bottom="24px" css-class="footer-text">
                 0800 935 328 (0800 Z ELECTRIC)
@@ -40,7 +40,7 @@
             <mj-text css-class="footer-powered-by" mj-class="white tiny" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center">Powered by Flick Electric</mj-text>
         </mj-column>
         <mj-column>
-            <mj-text css-class="footer-website-link" mj-class="white small" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center"><a class="nice-underline" href="http://example.com">z.co.nz/electric</a></mj-text>
+            <mj-text css-class="footer-website-link" mj-class="white small" padding-bottom="12px" padding-left="12px" padding-right="12px" align="center"><a href="http://example.com">z.co.nz/electric</a></mj-text>
         </mj-column>
     </mj-section>
 </mj-wrapper>

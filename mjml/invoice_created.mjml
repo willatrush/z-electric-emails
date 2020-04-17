@@ -112,6 +112,7 @@
 
       </mj-column>
     </mj-section>
+    <mj-include path="./partials/install_app.mjml" />
     <mj-include path="./partials/footer.mjml" />
   </mj-body>
 </mjml>

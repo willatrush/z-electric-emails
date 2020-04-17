@@ -57,17 +57,17 @@
         <mj-text mj-class="paragraph">
           To pay this invoice now, give us a call and you’ll be able to pay with your credit or debit card. Or alternatively, if you want to pay directly to our account, our entity account details are:
         </mj-text>
-        <mj-text mj-class="paragraph">
-          Bank Account: Westpac
+        <mj-text mj-class="">
+          <b>Bank Account:</b> Westpac
+        </mj-text>
+        <mj-text mj-class="">
+          <b>Account name:</b> Flick Energy Ltd
+        </mj-text>
+        <mj-text mj-class="">
+          <b>Account number:</b> 03-0584-0341115-00
         </mj-text>
         <mj-text mj-class="paragraph">
-          Account name: Flick Energy Ltd
-        </mj-text>
-        <mj-text mj-class="paragraph">
-          Account number: 03-0584-0341115-00
-        </mj-text>
-        <mj-text mj-class="paragraph">
-          Reference Number: {{ flick_customer_number }}
+          <b>Reference Number:</b> {{ flick_customer_number }}
         </mj-text>
         <mj-text mj-class="paragraph">
           Please note, we are Z Electric fuelled by Flick – that’s why the account name is Flick Energy.

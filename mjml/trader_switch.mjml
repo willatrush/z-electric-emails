@@ -17,7 +17,7 @@
           Kia ora {{ preferred_name }},
         </mj-text>
 
-        <mj-text mj-class="paragraph first-paragrah-bottom">
+        <mj-text mj-class="paragraph">
           We're sorry to see you closed your account with Z Electric, but thanks for giving us a try! If this is not correct, please contact us and we can fix it.
         </mj-text>
 
@@ -26,7 +26,7 @@
         </mj-text>
 
         <mj-text mj-class="paragraph">
-          <a href="https://flickelectricco.typeform.com/to/y5gzb7?e={{ email_address }}">Click here to let us know what we could do better </a> – it should only take a minute or so, and we’d love to hear your thoughts.
+          <a href="https://flickelectricco.typeform.com/to/y5gzb7?e={{ email_address }}">Click here</a> to let us know what we could do better – it should only take a minute or so, and we’d love to hear your thoughts.
         </mj-text>
 
         <mj-text mj-class="paragraph">

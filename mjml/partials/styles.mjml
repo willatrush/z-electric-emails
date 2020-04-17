@@ -12,15 +12,11 @@
         vertical-align: baseline;
         color: inherit !important;
         text-decoration: none;
-        text-decoration: underline;
+        text-decoration: underline #00BDCE;
     }
 
     .mj-text > div {
         line-height: 20px !important;
-    }
-
-    .nice-underline {
-        text-decoration: underline #00BDCE;
     }
 
   	@media only screen and (min-width: 600px) {

@@ -25,7 +25,7 @@
 
                 </mj-text>
 
-                <mj-text mj-class="paragraph first-paragrah-bottom">
+                <mj-text mj-class="paragraph">
 
                     If electricity is already connected at <b>{{ property_address }}</b>, don’t worry – it will stay connected between now and {{ requested_switch_date }}. Once everything is sorted, we’ll be in touch again to let you know.
 

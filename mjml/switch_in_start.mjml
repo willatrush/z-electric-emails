@@ -17,7 +17,7 @@
           Kia ora {{ preferred_name }},
         </mj-text>
 
-        <mj-text mj-class="paragraph-bottom">
+        <mj-text mj-class="paragraph">
           Your switch to Z Electric at <b>{{ property_address }}</b> is underway!
         </mj-text>
 

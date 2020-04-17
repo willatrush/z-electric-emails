@@ -1,3 +1,6 @@
+<mj-raw>
+    <!-- ######################## Install app section start ######################## -->
+</mj-raw>
 <mj-section css-class="app-image-section-mobile">
     <mj-column>
         <mj-image width="215px" src="../assets/app.png" />
@@ -60,3 +63,6 @@
         </mj-section>
     </mj-column>
 </mj-section>
+<mj-raw>
+    <!-- ######################## Install app section start ######################## -->
+</mj-raw>

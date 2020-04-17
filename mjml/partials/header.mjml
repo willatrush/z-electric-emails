@@ -1,6 +1,12 @@
+<mj-raw>
+	<!-- ######################## Header start ######################## -->
+</mj-raw>
 <mj-section padding-top="24px" padding-bottom="19px">
     <mj-column>
         <mj-image width="198px" src="../assets/logo.png"></mj-image>
     </mj-column>
 </mj-section>
 <mj-divider border-width="3px"></mj-divider>
+<mj-raw>
+	<!-- ######################## Header end ######################## -->
+</mj-raw>

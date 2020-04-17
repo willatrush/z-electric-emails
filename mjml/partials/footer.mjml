@@ -1,3 +1,6 @@
+<mj-raw>
+    <!-- ######################## Install app section start ######################## -->
+</mj-raw>
 <mj-wrapper background-url="../assets/footer_background.png" background-size="cover" background-repeat="no-repeat" full-width="full-width">
     <mj-section>
         <mj-column css-class="footer-column-1" width="198px" padding-top="24px" padding-left="12px" padding-right="12px">
@@ -41,3 +44,6 @@
         </mj-column>
     </mj-section>
 </mj-wrapper>
+<mj-raw>
+    <!-- ######################## Install app section start ######################## -->
+</mj-raw>

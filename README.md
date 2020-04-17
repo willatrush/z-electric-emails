@@ -7,8 +7,7 @@ run ```yarn```
 #### Dev
 
 run ```gulp```
-- Watch `mjml` folder and compiles `liquid`
-- Using `example.json` and `liquid` templates, render examples
+- Watch `mjml` folder and compiles templates in `dist`
 
 #### Preview
 

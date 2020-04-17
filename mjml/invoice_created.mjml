@@ -1,0 +1,117 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="600px" />
+    <mj-attributes>
+      <mj-include path="./partials/attributes.mjml" />
+    </mj-attributes>
+    <mj-include path="./partials/styles.mjml" />
+  </mj-head>
+  <mj-body>
+    <mj-include path="./partials/header.mjml" />
+    <mj-section css-class="body-section">
+      <mj-column mj-class="body-side-container">
+        <mj-image width="60px" src="../assets/thumbs_up.png"></mj-image>
+      </mj-column>
+      <mj-column mj-class="body-main-container">
+        <mj-section padding-top="29px" padding-bottom="20px">
+          <mj-column>
+            <mj-text mj-class="paragraph">
+              Kia ora {{ preferred_name }},<br />
+              Your bill for {{ period }} is:
+            </mj-text>
+          </mj-column>
+
+          <mj-column>
+            <mj-text css-class="invoice-amount right-on-desktop" mj-class="paragraph huge bold" align="left">
+              $199.99
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-wrapper background-color="#F1F4F8">
+          <mj-wrapper padding="24px">
+            <mj-section padding-bottom="20px">
+              <mj-text mj-class="big orange bold">
+                Bill details
+              </mj-text>
+            </mj-section>
+
+            <mj-section>
+              <mj-column>
+                <mj-text mj-class="medium bill-title">
+                  Billing period:
+                </mj-text>
+              </mj-column>
+              <mj-column>
+                <mj-text mj-class="medium bill-detail bold">
+                  24 February – 1 March
+                </mj-text>
+              </mj-column>
+            </mj-section>
+            <mj-section>
+              <mj-column>
+                <mj-text mj-class="medium bill-title">
+                  Your electricity usage:
+                </mj-text>
+              </mj-column>
+              <mj-column>
+                <mj-text mj-class="medium bill-detail bold">
+                  {{ consolidated_consumption }} kWh
+                </mj-text>
+              </mj-column>
+            </mj-section>
+            <mj-section>
+              <mj-column>
+                <mj-text mj-class="medium bill-title">
+                  What you owe:
+                </mj-text>
+              </mj-column>
+              <mj-column>
+                <mj-text mj-class="medium bill-detail bold">
+                  $19.22
+                </mj-text>
+              </mj-column>
+            </mj-section>
+            <mj-section>
+              <mj-column>
+                <mj-text mj-class="medium bill-title">
+                  When your bill is paid:
+                </mj-text>
+              </mj-column>
+              <mj-column>
+                <mj-text mj-class="medium bill-detail bold">
+                  27 March 2020
+                </mj-text>
+              </mj-column>
+            </mj-section>
+            <mj-section>
+              <mj-column>
+                <mj-text mj-class="medium bill-title">
+                  Your payment method:
+                </mj-text>
+              </mj-column>
+              <mj-column>
+                <mj-text mj-class="medium bill-detail bold">
+                  Direct debit
+                </mj-text>
+              </mj-column>
+            </mj-section>
+          </mj-wrapper>
+        </mj-wrapper>
+
+        <mj-text mj-class="paragraph" padding-top="32px">
+          We’ve designed our fuel rewards to be... well, rewarding! Every $100 spent with Z Electric, earns you 5L – and it’s scalable. So the more that your electricity bill is, the greater your Fuel Rewards are. Litres are deposited into your Sharetank after
+          each successful payment. Open Sharetank in Z App to redeem, or reward the ones you love.
+        </mj-text>
+
+        <mj-divider />
+
+        <mj-text mj-class="paragraph">
+          Occasionally we need to use estimated price or usage data to calculate the above figures. If this happens and we receive meter data at a later date, the difference is applied to your next bill as a charge or credit.
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+    <mj-include path="./partials/footer.mjml" />
+  </mj-body>
+</mjml>

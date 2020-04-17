@@ -1,0 +1,117 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="600px" />
+    <mj-attributes>
+      <mj-include path="./partials/attributes.mjml" />
+    </mj-attributes>
+    <mj-include path="./partials/styles.mjml" />
+  </mj-head>
+  <mj-body>
+    <mj-include path="./partials/header.mjml" />
+    <mj-section css-class="body-section">
+      <mj-column mj-class="body-side-container">
+        <mj-image width="60px" src="../assets/thumbs_up.png"></mj-image>
+      </mj-column>
+      <mj-column mj-class="body-main-container">
+        <mj-section>
+          <mj-column width="70%">
+            <mj-text mj-class="paragraph first-paragrah-top">
+
+              Kia ora {{ preferred_name }},
+
+            </mj-text>
+
+            <mj-text mj-class="paragraph">
+              Customer Number: #{{ flick_customer_number }}
+            </mj-text>
+
+            <mj-text>
+              We tried to take payment of <b>{{ payment_amount | notifier_money }}</b> from your preferred payment method on {{ payment_date | notifier_utc_datetime_to_local_date : "Pacific/Auckland" | notifier_format_date }}, but it wasn't successful.
+
+            </mj-text>
+
+          </mj-column>
+          <mj-column width="30%">
+            <mj-text css-class="right-on-desktop" mj-class="bold first-paragrah-top account-details">
+              Account number:
+            </mj-text>
+            <mj-text css-class="right-on-desktop" mj-class="account-details">
+              123456789<br/><br/>
+            </mj-text>
+            <mj-text css-class="right-on-desktop" mj-class="bold account-details">
+              Address: 
+            </mj-text>
+            <mj-text css-class="right-on-desktop" mj-class="account-details">
+              11 Hatfields Heights
+            </mj-text>
+            <mj-text css-class="right-on-desktop" mj-class="account-details">
+               Auckland, 0931
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-divider padding-top="52px"/>
+
+        <mj-text mj-class="bold big title">I’d like to pay this now</mj-text>
+
+        <mj-text mj-class="paragraph">
+          To pay this invoice now, give us a call and you’ll be able to pay with your credit or debit card. Or alternatively, if you want to pay directly to our account, our entity account details are:
+        </mj-text>
+        <mj-text mj-class="paragraph">
+          Bank Account: Westpac
+        </mj-text>
+        <mj-text mj-class="paragraph">
+          Account name: Flick Energy Ltd
+        </mj-text>
+        <mj-text mj-class="paragraph">
+          Account number: 03-0584-0341115-00
+        </mj-text>
+        <mj-text mj-class="paragraph">
+          Reference Number: {{ flick_customer_number }}
+        </mj-text>
+        <mj-text mj-class="paragraph">
+          Please note, we are Z Electric fuelled by Flick – that’s why the account name is Flick Energy.
+
+        </mj-text>
+
+        <mj-divider />
+
+        <mj-text mj-class="bold big title">Where are my Fuel Rewards?</mj-text>
+
+        <mj-text mj-class="paragraph">
+          Because we haven’t been able to take payment, we’ve held off depositing your Fuel Rewards just to make sure everything is okay on your account. Not to worry though, once all of the payment side of things is sorted, you’ll have all of the Fuel Rewards
+          that you’ve earned deposited into your Sharetank.
+        </mj-text>
+
+        <mj-divider />
+
+        <mj-text mj-class="bold big title"> What if I have more than one missed payment?</mj-text>
+        <mj-text mj-class="paragraph">
+          If there are unpaid Z Electric invoices on your account, the total amount will show on the next billing email you receive from us. We won’t attempt to take payment for outstanding invoices with the next payment, so you’ll need to contact us directly to
+          arrange payment of any outstanding invoices.
+        </mj-text>
+
+        <mj-divider />
+
+        <mj-text mj-class="bold big title">
+          Contact us
+        </mj-text>
+
+        <mj-text mj-class="paragraph">
+          If you think there’s been a mistake, need to change your payment method or you’d just like to chat things through, we’re here to help. Please call us on 0800 935 328 (0800 Z ELECTRIC) or email us at <a>help@zelectric.z.co.nz</a> and we can get
+          things sorted.
+        </mj-text>
+
+        <mj-text mj-class="paragraph">
+          Ngā mihi nui,
+        </mj-text>
+
+        <mj-text mj-class="paragraph">
+          The team @ Z Electric
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./partials/install_app.mjml" />
+    <mj-include path="./partials/footer.mjml" />
+  </mj-body>
+</mjml>

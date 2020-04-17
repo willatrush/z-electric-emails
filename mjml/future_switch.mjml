@@ -9,18 +9,26 @@
     <mj-body>
         <mj-include path="./partials/header.mjml" />
         <mj-section padding-bottom="84px">
-            <mj-column width="106px" padding-right="34px" css-class="side-image">
+            <mj-column mj-class="body-side-container">
                 <mj-image width="60px" src="../assets/thumbs_up.png"></mj-image>
             </mj-column>
-            <mj-column width="490px" padding-left="12px" padding-right="12px">
-                <mj-text mj-class="paragraph first-paragrah">
+            <mj-column mj-class="body-main-container">
+                <mj-text mj-class="paragraph first-paragrah-top">
                     
-                    Kia ora {{ preferred_name }},<br/><br/>
+                    Kia ora {{ preferred_name }},
+                    
+                </mj-text>
 
-                    Good news – your Z Electric join process has been booked for {{ requested_switch_date }}.<br/><br/>
+                <mj-text mj-class="paragraph">
+
+                    Good news – your Z Electric join process has been booked for {{ requested_switch_date }}.
+
+                </mj-text>
+
+                <mj-text mj-class="paragraph first-paragrah-bottom">
 
                     If electricity is already connected at <b>{{ property_address }}</b>, don’t worry – it will stay connected between now and {{ requested_switch_date }}. Once everything is sorted, we’ll be in touch again to let you know.
-                    
+
                 </mj-text>
 
                 <mj-divider />

@@ -143,8 +143,16 @@
         text-align: left !important;
       }
 
+      .right-on-desktop > div {
+        text-align: right !important;
+      }
+
       .app-image-section-mobile {
         display: none;
+      }
+
+      .invoice-amount {
+        padding-top: 6px;
       }
   	}</style>
         
@@ -273,14 +281,14 @@
         </table>
       
       <table
-         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+         align="center" border="0" cellpadding="0" cellspacing="0" class="body-section-outlook" style="width:600px;" width="600"
       >
         <tr>
           <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
       <![endif]-->
     
       
-      <div  style="margin:0px auto;max-width:600px;">
+      <div  class="body-section" style="margin:0px auto;max-width:600px;">
         
         <table
            align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"
@@ -288,7 +296,7 @@
           <tbody>
             <tr>
               <td
-                 style="direction:ltr;font-size:0px;padding:0;padding-bottom:84px;text-align:center;"
+                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
               >
                 <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
@@ -296,12 +304,12 @@
         <tr>
       
             <td
-               class="side-image-outlook" style="vertical-align:top;width:106px;"
+               class="body-side-container-outlook" style="vertical-align:top;width:106px;"
             >
           <![endif]-->
             
       <div
-         class="mj-column-px-106 mj-outlook-group-fix side-image" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
+         class="mj-column-px-106 mj-outlook-group-fix body-side-container" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
       >
         
       <table
@@ -373,54 +381,24 @@
         
             <tr>
               <td
-                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-top:58px;padding-bottom:16px;word-break:break-word;"
               >
                 
       <div
          style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
-      >Kia ora {{ preferred_name }},<br/><br/>
-
-                    Good news – your Z Electric join process has been booked for {{ requested_switch_date }}.<br/><br/>
-
-                    If electricity is already connected at <b>{{ property_address }}</b>, don’t worry – it will stay connected between now and {{ requested_switch_date }}. Once everything is sorted, we’ll be in touch again to let you know.</div>
+      >Kia ora {{ preferred_name }},</div>
     
               </td>
             </tr>
           
             <tr>
               <td
-                 style="font-size:0px;padding:0;padding-top:4px;padding-bottom:24px;word-break:break-word;"
-              >
-                
-      <p
-         style="border-top:solid 1px #E7EBED;font-size:1px;margin:0px auto;width:100%;"
-      >
-      </p>
-      
-      <!--[if mso | IE]>
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #E7EBED;font-size:1px;margin:0px auto;width:466px;" role="presentation" width="466px"
-        >
-          <tr>
-            <td style="height:0;line-height:0;">
-              &nbsp;
-            </td>
-          </tr>
-        </table>
-      <![endif]-->
-    
-    
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:52px;word-break:break-word;"
               >
                 
       <div
-         style="font-family:Arial;font-size:16px;font-weight:bold;line-height:1;text-align:left;color:#4F4F4F;"
-      >Need help?</div>
+         style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
+      >We're sorry to see you closed your account with Z Electric, but thanks for giving us a try! If this is not correct, please contact us and we can fix it.</div>
     
               </td>
             </tr>
@@ -432,7 +410,31 @@
                 
       <div
          style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
-      >If you’ve got any questions, we’ve got you sorted in our online <b>Help Centre</b> - just head to <a>z.co.nz/electrichelp</a> or reply back to this email with your question, and one of the team will check it out for you.</div>
+      >We're always working on improving the Z Electric experience for our customers – so, we’d love to know why you choose to leave?</div>
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+              >
+                
+      <div
+         style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
+      ><a href="https://flickelectricco.typeform.com/to/y5gzb7?e={{ email_address }}">Click here to let us know what we could do better </a> – it should only take a minute or so, and we’d love to hear your thoughts.</div>
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+              >
+                
+      <div
+         style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
+      >If you'd like to have a chat, we're always open – you can book a slot with one of our friendly Z Electric faces at <a href="https://calendly.com/georgia-weaver/15min">here</a>.</div>
     
               </td>
             </tr>

@@ -1,0 +1,48 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="600px" />
+    <mj-attributes>
+      <mj-include path="./partials/attributes.mjml" />
+    </mj-attributes>
+    <mj-include path="./partials/styles.mjml" />
+  </mj-head>
+  <mj-body>
+    <mj-include path="./partials/header.mjml" />
+    <mj-section css-class="body-section">
+      <mj-column mj-class="body-side-container">
+        <mj-image width="60px" src="../assets/thumbs_up.png"></mj-image>
+      </mj-column>
+      <mj-column mj-class="body-main-container">
+        <mj-text mj-class="paragraph first-paragrah-top">
+          Kia ora {{ preferred_name }},
+        </mj-text>
+
+        <mj-text mj-class="paragraph first-paragrah-bottom">
+          We're sorry to see you closed your account with Z Electric, but thanks for giving us a try! If this is not correct, please contact us and we can fix it.
+        </mj-text>
+
+        <mj-text mj-class="paragraph">
+          We're always working on improving the Z Electric experience for our customers – so, we’d love to know why you choose to leave?
+        </mj-text>
+
+        <mj-text mj-class="paragraph">
+          <a href="https://flickelectricco.typeform.com/to/y5gzb7?e={{ email_address }}">Click here to let us know what we could do better </a> – it should only take a minute or so, and we’d love to hear your thoughts.
+        </mj-text>
+
+        <mj-text mj-class="paragraph">
+          If you'd like to have a chat, we're always open – you can book a slot with one of our friendly Z Electric faces at <a href="https://calendly.com/georgia-weaver/15min">here</a>.
+        </mj-text>
+
+        <mj-text mj-class="paragraph">
+          Ngā mihi nui,
+        </mj-text>
+
+        <mj-text mj-class="paragraph">
+          The team @ Z Electric
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./partials/install_app.mjml" />
+    <mj-include path="./partials/footer.mjml" />
+  </mj-body>
+</mjml>

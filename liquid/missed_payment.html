@@ -281,14 +281,14 @@
         </table>
       
       <table
-         align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600"
+         align="center" border="0" cellpadding="0" cellspacing="0" class="body-section-outlook" style="width:600px;" width="600"
       >
         <tr>
           <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
       <![endif]-->
     
       
-      <div  style="margin:0px auto;max-width:600px;">
+      <div  class="body-section" style="margin:0px auto;max-width:600px;">
         
         <table
            align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;"
@@ -296,7 +296,7 @@
           <tbody>
             <tr>
               <td
-                 style="direction:ltr;font-size:0px;padding:0;padding-bottom:84px;text-align:center;"
+                 style="direction:ltr;font-size:0px;padding:0;text-align:center;"
               >
                 <!--[if mso | IE]>
                   <table role="presentation" border="0" cellpadding="0" cellspacing="0">
@@ -393,24 +393,36 @@
           
             <tr>
               <td
-                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:52px;word-break:break-word;"
               >
                 
       <div
          style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
-      >Good news – your Z Electric join process has been booked for {{ requested_switch_date }}.</div>
+      >Customer Number: #{{ flick_customer_number }}</div>
     
               </td>
             </tr>
           
             <tr>
               <td
-                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:52px;word-break:break-word;"
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
               >
                 
       <div
          style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
-      >If electricity is already connected at <b>{{ property_address }}</b>, don’t worry – it will stay connected between now and {{ requested_switch_date }}. Once everything is sorted, we’ll be in touch again to let you know.</div>
+      >Address: {{ property_address }}</div>
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+              >
+                
+      <div
+         style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
+      >We tried to take payment of <b>{{ payment_amount | notifier_money }}</b> from your preferred payment method on {{ payment_date | notifier_utc_datetime_to_local_date : "Pacific/Auckland" | notifier_format_date }}, but it wasn't successful.</div>
     
               </td>
             </tr>
@@ -448,7 +460,7 @@
                 
       <div
          style="font-family:Arial;font-size:16px;font-weight:bold;line-height:1;text-align:left;color:#4F4F4F;"
-      >Need help?</div>
+      >I’d like to pay this now</div>
     
               </td>
             </tr>
@@ -460,7 +472,220 @@
                 
       <div
          style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
-      >If you’ve got any questions, we’ve got you sorted in our online <b>Help Centre</b> - just head to <a>z.co.nz/electrichelp</a> or reply back to this email with your question, and one of the team will check it out for you.</div>
+      >To pay this invoice now, give us a call and you’ll be able to pay with your credit or debit card. Or alternatively, if you want to pay directly to our account, our entity account details are:</div>
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+              >
+                
+      <div
+         style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
+      >Bank Account: Westpac</div>
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+              >
+                
+      <div
+         style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
+      >Account name: Flick Energy Ltd</div>
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+              >
+                
+      <div
+         style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
+      >Account number: 03-0584-0341115-00</div>
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+              >
+                
+      <div
+         style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
+      >Reference Number: {{ flick_customer_number }}</div>
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+              >
+                
+      <div
+         style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
+      >Please note, we are Z Electric fuelled by Flick – that’s why the account name is Flick Energy.</div>
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 style="font-size:0px;padding:0;padding-top:4px;padding-bottom:24px;word-break:break-word;"
+              >
+                
+      <p
+         style="border-top:solid 1px #E7EBED;font-size:1px;margin:0px auto;width:100%;"
+      >
+      </p>
+      
+      <!--[if mso | IE]>
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #E7EBED;font-size:1px;margin:0px auto;width:466px;" role="presentation" width="466px"
+        >
+          <tr>
+            <td style="height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+    
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+              >
+                
+      <div
+         style="font-family:Arial;font-size:16px;font-weight:bold;line-height:1;text-align:left;color:#4F4F4F;"
+      >Where are my Fuel Rewards?</div>
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+              >
+                
+      <div
+         style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
+      >Because we haven’t been able to take payment, we’ve held off depositing your Fuel Rewards just to make sure everything is okay on your account. Not to worry though, once all of the payment side of things is sorted, you’ll have all of the Fuel Rewards
+          that you’ve earned deposited into your Sharetank.</div>
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 style="font-size:0px;padding:0;padding-top:4px;padding-bottom:24px;word-break:break-word;"
+              >
+                
+      <p
+         style="border-top:solid 1px #E7EBED;font-size:1px;margin:0px auto;width:100%;"
+      >
+      </p>
+      
+      <!--[if mso | IE]>
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #E7EBED;font-size:1px;margin:0px auto;width:466px;" role="presentation" width="466px"
+        >
+          <tr>
+            <td style="height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+    
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+              >
+                
+      <div
+         style="font-family:Arial;font-size:16px;font-weight:bold;line-height:1;text-align:left;color:#4F4F4F;"
+      >What if I have more than one missed payment?</div>
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+              >
+                
+      <div
+         style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
+      >If there are unpaid Z Electric invoices on your account, the total amount will show on the next billing email you receive from us. We won’t attempt to take payment for outstanding invoices with the next payment, so you’ll need to contact us directly to
+          arrange payment of any outstanding invoices.</div>
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 style="font-size:0px;padding:0;padding-top:4px;padding-bottom:24px;word-break:break-word;"
+              >
+                
+      <p
+         style="border-top:solid 1px #E7EBED;font-size:1px;margin:0px auto;width:100%;"
+      >
+      </p>
+      
+      <!--[if mso | IE]>
+        <table
+           align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #E7EBED;font-size:1px;margin:0px auto;width:466px;" role="presentation" width="466px"
+        >
+          <tr>
+            <td style="height:0;line-height:0;">
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+    
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+              >
+                
+      <div
+         style="font-family:Arial;font-size:16px;font-weight:bold;line-height:1;text-align:left;color:#4F4F4F;"
+      >Contact us</div>
+    
+              </td>
+            </tr>
+          
+            <tr>
+              <td
+                 align="left" class="mj-text" style="font-size:0px;padding:0;padding-bottom:16px;word-break:break-word;"
+              >
+                
+      <div
+         style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#4F4F4F;"
+      >If you think there’s been a mistake, need to change your payment method or you’d just like to chat things through, we’re here to help. Please call us on 0800 935 328 (0800 Z ELECTRIC) or email us at <a>help@zelectric.z.co.nz</a> and we can get
+          things sorted.</div>
     
               </td>
             </tr>

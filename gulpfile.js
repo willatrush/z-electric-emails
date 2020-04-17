@@ -9,33 +9,24 @@ const series = gulp.series;
 const parallel = gulp.parallel;
 
 function clean(cb) {
-    del.sync('./liquid');
-    del.sync('./examples');
+    del.sync('./dist');
     cb();
 };
 
 function buildLiquid() {
     return gulp.src('mjml/*.mjml')
         .pipe(mjml())
-        .pipe(rename({
-            extname: '.html.liquid'
-        }))
-        .pipe(gulp.dest('./liquid/'))
-};
-
-function buildExamples(cb) {
-    execSync('node ./scripts/buildExamples.js');
-    cb();
+        .pipe(gulp.dest('./dist/'))
 };
 
 function openExample(cb) {
-    execSync('open ./examples/sign_up_confirmation.html || true');
+    execSync('open ./dist/invoice_created.html || true');
     cb();
 };
 
 function dev() {
-    watch('./mjml/**/*.mjml', { ignoreInitial: false },
-        series(buildLiquid, buildExamples));
+    watch(['./mjml/**/*.mjml', './data/**/*.json'], { ignoreInitial: false },
+        series(buildLiquid));
 }
 
 exports.default = series(openExample, dev);

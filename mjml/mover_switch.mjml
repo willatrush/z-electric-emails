@@ -10,7 +10,7 @@
     <mj-include path="./partials/header.mjml" />
     <mj-section css-class="body-section">
       <mj-column mj-class="body-side-container">
-        <mj-image width="60px" src="../assets/thumbs_up.png"></mj-image>
+        <mj-image width="56px" src="../assets/Icon-house.png"></mj-image>
       </mj-column>
       <mj-column mj-class="body-main-container">
         <mj-text mj-class="paragraph first-paragrah-top">

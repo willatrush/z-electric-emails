@@ -3,26 +3,13 @@
 </mj-raw>
 <mj-wrapper background-url="../assets/footer_background.png" background-size="cover" background-repeat="no-repeat" full-width="full-width">
     <mj-section>
-        <mj-column css-class="footer-column-1" width="198px" padding-top="24px" padding-left="12px" padding-right="12px">
-            <mj-image src="../assets/logo.png" padding-bottom="22px" />
-            <mj-text css-class="footer-office-hours" mj-class="white medium-small" align="center" padding-bottom="8px">
-                Our office hours are:
-            </mj-text>
-            <mj-text css-class="footer-office-hours" mj-class="white medium-small" align="center" padding-bottom="8px">
-                8.00am–8.00pm Mon to Wed
-            </mj-text>
-            <mj-text css-class="footer-office-hours" mj-class="white medium-small" align="center" padding-bottom="8px">
-                8.00am–4.30pm Thurs to Fri
-            </mj-text>
-            <mj-text css-class="footer-office-hours last-footer-office-hours" mj-class="white medium-small" align="center" padding-bottom="8px">
-                8.30am–5.00pm Sat to Sun
+        <mj-column css-class="footer-column-1" width="240px" padding-top="24px" padding-left="12px" padding-right="12px">
+            <mj-image src="../assets/logo_footer.png" padding-bottom="22px" />
+            <mj-text css-class="footer-office-hours" mj-class="white big bold" align="center" padding-bottom="24px">
+                Electricity for New Zealand
             </mj-text>
         </mj-column>
-        <mj-column css-class="footer-column-2" width="386px" padding-top="32px" padding-left="12px" padding-right="12px">
-            <mj-text padding-bottom="32px" mj-class="white big2 bold" align="center" css-class="footer-text">
-                A new kind of electricity
-            </mj-text>
-
+        <mj-column css-class="footer-column-2" width="360px" padding-top="32px" padding-left="12px" padding-right="12px">
             <mj-text mj-class="white medium-small" align="center" padding-bottom="8px" css-class="footer-text">
                 Visit our <a class="bold">Help Centre</a> or give us a call on
             </mj-text>

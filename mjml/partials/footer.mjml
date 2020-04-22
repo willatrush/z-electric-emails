@@ -4,7 +4,7 @@
 <mj-wrapper background-url="../assets/footer_background.png" background-size="cover" background-repeat="no-repeat" full-width="full-width">
     <mj-section>
         <mj-column css-class="footer-column-1" width="240px" padding-top="24px" padding-left="12px" padding-right="12px">
-            <mj-image src="../assets/logo_footer.png" padding-bottom="22px" />
+            <mj-image width="144px" src="../assets/logo_footer.png" padding-bottom="22px" align="left" />
             <mj-text css-class="footer-office-hours" mj-class="white big bold" align="center" padding-bottom="24px">
                 Electricity for New Zealand
             </mj-text>

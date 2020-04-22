@@ -92,5 +92,9 @@
       .invoice-amount {
         padding-top: 6px;
       }
+
+      .footer-logo {
+        text-align: left !important;
+      }
   	}
 </mj-style>

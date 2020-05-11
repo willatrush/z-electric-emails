@@ -1,5 +1,5 @@
 <mj-raw>
-    <!-- ######################## Install app section start ######################## -->
+    <!-- ######################## Footer start ######################## -->
 </mj-raw>
 <mj-wrapper background-url="../assets/footer_background.png" background-size="cover" background-repeat="no-repeat" full-width="full-width">
     <mj-section>
@@ -17,6 +17,8 @@
                 0800 Z ELECTRIC (0800 935 328)
             </mj-text>
         </mj-column>
+    </mj-section>
+    <mj-section>
         <mj-divider border-color="rgba(255, 255, 255, 0.15)"></mj-divider>
     </mj-section>
     <mj-section padding-top="24px" padding-bottom="12px">
@@ -32,5 +34,5 @@
     </mj-section>
 </mj-wrapper>
 <mj-raw>
-    <!-- ######################## Install app section start ######################## -->
+    <!-- ######################## Footer end ######################## -->
 </mj-raw>
